@@ -11,7 +11,6 @@ public class PlanetTest {
         double expectedDensity = 2.5;
         assertEquals(expectedDensity, planet.calculateDensity(), 0.0001);
     }
-
     @Test
     void testIsOuterPlanet() {
         Planet innerPlanet = new Planet("Inner", 0, 0, 0, 0, 100, Planet.TypePlanet.TERRESTRE, false);
